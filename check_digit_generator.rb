@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 class CheckDigitGenerator
+
   # Returns barcode along with Check digit 
   def barcode(bar_code)
     "#{bar_code}#{isbn13_check_digit(bar_code)}"
